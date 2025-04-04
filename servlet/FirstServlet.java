@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/login")
-public class TestServlet extends HttpServlet{
+public class FirstServlet extends HttpServlet{
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException{
 		PrintWriter out = res.getWriter();
